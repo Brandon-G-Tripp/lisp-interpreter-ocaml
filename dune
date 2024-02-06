@@ -1,0 +1,9 @@
+(library 
+  (name lisp_interpreter))
+
+(rule 
+  (alias @test)
+  (action (run ./_build/default/test/test_lisp_interpreter.exe)))
+
+(libraries batteries ocamlgraph)
+
