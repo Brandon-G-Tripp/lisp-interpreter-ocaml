@@ -1,0 +1,7 @@
+# dune init project lisp_interpreter
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /Users/brandontripp/.cache/dune/db
+# Workspace root:
+# /Users/brandontripp/projects-software/personal/dataano-programming-learning-projects/functional-language-projects/ocaml/lisp-interpreter-ocaml/lisp_interpreter
+# Auto-detected concurrency: 8
