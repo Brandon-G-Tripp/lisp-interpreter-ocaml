@@ -5,9 +5,9 @@
 (generate_opam_files true)
 
 (source
- (github username/reponame))
+ (github brandon-g-tripp/lisp-interpreter-ocaml))
 
-(authors "Author Name")
+(authors "Brandon Tripp")
 
 (maintainers "Maintainer Name")
 
