@@ -14,8 +14,6 @@ depends: [
   "ocaml"
   "dune" {>= "3.13"}
   "odoc" {with-doc}
-  "batteries"
-  "ocamlgraph"
 ]
 build: [
   ["dune" "subst"] {dev}
