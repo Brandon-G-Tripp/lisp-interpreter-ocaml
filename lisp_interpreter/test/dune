@@ -1,3 +1,6 @@
-(test
- (name test_lisp_interpreter)
- (libraries ounit))
+; (test
+;  (name test_lisp_interpreter))
+
+(test 
+  (name test_lexer)
+  (libraries lib))
