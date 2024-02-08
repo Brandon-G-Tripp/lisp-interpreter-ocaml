@@ -1,4 +1,5 @@
+;; this will likely be the REPL for the interpreter
 (executable
- (public_name lisp_interpreter)
+ ; (public_name lisp_executable) ; this can be any name that is accessible outside bin. Does not have to match the package name
  (name main)
  (libraries lisp_interpreter))

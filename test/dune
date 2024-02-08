@@ -1,3 +1,13 @@
+; (executable
+;   (name test)
+;   (libraries lisp_interpreter))
+
 (test 
   (name test_lisp_interpreter)
-  (libraries ounit lisp_interpreter))
+  (modules test_lisp_interpreter)
+  (libraries ounit lisp_interpreter_lib))
+
+(test 
+  (name test_lexer)
+  (modules test_lexer)
+  (libraries ounit lisp_interpreter_lib))

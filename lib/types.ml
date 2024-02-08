@@ -1,2 +1,2 @@
-type expr = 
-type environmen t = 
+(* type expr = *) 
+(* type environment = *) 
